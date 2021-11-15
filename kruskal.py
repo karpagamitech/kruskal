@@ -41,19 +41,7 @@ def main():
 	g.addEdge(1, 3, 15)
 	g.addEdge(2, 3, 4)
 	g.KruskalMST()
-	'''g=Graph(6)
-	g.addEdge(0,1,3)
-	g.addEdge(1,2,1)
-	g.addEdge(2,3,6)
-	g.addEdge(3,4,8)
-	g.addEdge(4,5,2)
-	g.addEdge(4,0,6)
-	g.addEdge(5,0,5)
-	g.addEdge(5,1,4)
-	g.addEdge(5,2,4)
-	g.addEdge(5,3,5)
 	
-	g.KruskalMST()'''
 
 if __name__ == '__main__':
     main()
